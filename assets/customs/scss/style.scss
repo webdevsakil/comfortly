@@ -1,0 +1,20 @@
+// Base 
+@import "./base/variable";
+@import "./base/reset";
+
+// Components
+@import "./components/nav";
+@import "./components/button";
+@import "./components/quick_features";
+@import "./components/logo_clouds";
+@import "./components/section_title";
+@import "./components/testimonials";
+// Layouts 
+@import "./layouts/header";
+@import "./layouts/products";
+@import "./layouts/cat_products";
+@import "./components/button";
+@import "./layouts/iso_products";
+@import "./layouts/footer";
+//Pages 
+@import "./pages/home_hero";

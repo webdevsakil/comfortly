@@ -1,0 +1,16 @@
+.cat-product-footer{
+    background: $productbg;
+    padding: 20px;
+    h2{
+        font-weight: 600;
+        font-size: 20px;
+        color: $primary;
+    }
+    p{
+        font-size: 14px;
+        color:$primary;
+    }
+    .product-item{
+        margin:0;
+    }
+}

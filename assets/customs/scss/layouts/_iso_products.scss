@@ -1,0 +1,27 @@
+.iso__header{
+    margin-top: 80px;
+    margin-bottom: 48px;
+    h4{
+        font-weight: 600;
+        font-size: 32px;
+        color: $black;
+    }
+    li{
+        margin: 0px 8px;
+        a{
+            font-weight: 500;
+            font-size: 16px;
+            text-transform: capitalize;
+            color:$light-gray;
+            border-bottom: 1px solid transparent;
+            line-height: 18px;
+            &:hover{
+                color:$black;
+            }
+            &.active{
+                color:$black;
+                border-bottom-color: $active_border;
+            }
+        }
+    }
+}

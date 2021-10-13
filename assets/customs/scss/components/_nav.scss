@@ -1,0 +1,53 @@
+.navigation{
+    background:$primary;
+    padding: 14px 0px;
+    box-shadow:0px 1px $border;
+    &-container{
+        display:flex;
+        align-items: center;
+        .navlogo{
+            font-weight: 500;
+            font-size: 14px;
+            color:$black;
+            padding:16px 0px;
+            border:1px solid $border;
+            border-radius: 6px;
+            padding-right:24px;
+            svg{
+                margin-right:16px;
+                margin-left:24px;
+            }
+        }
+       .nav-menu{
+           margin: 0;
+           display:flex;
+           align-items: center;
+           li{
+               list-style: none;
+               a{
+                  text-decoration: none;
+                  font-weight: 500;
+                  font-size: 14px;
+                  color:$dark-gray;
+                  display: inline-block;
+                  margin-left: 16px;
+                  &.active{
+                      color:$accents;
+                  }
+               }
+           }
+       } 
+       .nav-text{
+           padding-bottom: 0;
+           margin-bottom: 0;
+           font-size: 14px;
+           font-weight: 400;
+           color:$dark-gray;
+           .contact{
+               font-weight: 500;
+               color:$black;
+               margin-left: 8px;
+           }
+       }      
+    }
+}

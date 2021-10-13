@@ -1,0 +1,88 @@
+#hero{
+    
+    .slider-wrapper{
+        z-index: -1;
+        padding: 82px 0px;
+        position: relative;
+        background:#F0F2F3;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+         border-radius: 8px;
+        .arrows-wrapper {
+            position: absolute;
+            width: 100%;
+            top:50%;
+            left:0%;
+            transform: translateY(-50%);
+        .slider-arrows{
+            display: flex;
+            justify-content: space-between;
+        }
+     }
+     .slider{
+         
+         padding: 0px 80px;
+        
+         h4{
+             font-size: 14px;
+             color:$black;
+             text-transform: uppercase;
+             letter-spacing: 2px;
+         }
+         h1{
+             font-weight: 700;
+             font-size: 68px;
+             color:$black;
+         }
+         .shopBtn{
+             font-size: 16px;
+             font-weight: 600;
+             color:$primary;
+             padding:17px 24px;
+             border-radius: 8px;
+             background:$btn-bg;
+             display: inline-block;
+             margin-top:20px;
+             svg{
+                 margin-left:20px;
+             }
+         }
+        
+     }
+     .products-wrapper{
+        position: relative;
+       
+        .products{
+            height: 124px;
+            width: 140px;
+            position: absolute;
+            top:0;
+            right:0px;
+            background-position: center;
+            background-size: cover;
+              display: flex;
+               justify-content: center;
+               align-items: center;
+            .discounts{
+               
+                .offer{
+                    font-size: 36px;
+                    font-weight: 700;
+                    color:#F05C52;
+                    padding-bottom: 0;
+                    margin:0;padding: 0;
+                }
+                &-text{
+                    margin-top:-5px;
+                    padding:0;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color:$black;
+                    text-align: center;
+                }
+            }
+        }
+     }
+ }
+}

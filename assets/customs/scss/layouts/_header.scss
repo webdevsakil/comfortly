@@ -1,0 +1,105 @@
+.subheader {
+    background: $black;
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 0px;
+        &-left {
+            p {
+                color: $primary;
+                margin: 0;
+                padding: 0;
+                font-size: 13px;
+                svg {
+                    margin-right: 8px;
+                }
+            }
+        }
+        &-right {
+            form {
+                margin-right: 24px;
+                font-size: 13px;
+                select {
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    color: $primary;
+                    padding: 0px 6px;
+                }
+            }
+            a {
+                margin: 0px 12px;
+                color: $primary;
+                svg {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}
+.mainheader {
+    background: $gray;
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+    }
+    &-form {
+        input {
+            border: none;
+            padding: 16px;
+            font-size: 16px;
+            border-radius: 8px;
+            &:focus {
+                border: none;
+                outline: none;
+            }
+            ::placeholder {
+                color: $light-gray;
+                text-transform: capitalize;
+            }
+        }
+        position: relative;
+        svg {
+            position: absolute;
+            top: 18px;
+            right: 20px;
+        }
+    }
+    &-right {
+        .cart {
+            padding: 11px 0px;
+            background: $primary;
+            color: $black;
+            margin-left: 16px;
+            display: inline-block;
+            font-weight: 500;
+            font-size: 12px;
+            svg {
+                margin: 0px 12px;
+            }
+            .count {
+                margin: 0px 12px;
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background: $accents;
+                color: $primary;
+                display: inline-block;
+                font-weight: 500;
+                font-size: 10px;
+                text-align: center;
+                line-height: 20px;
+            }
+        }
+        a {
+            padding: 11px 12px;
+            border-radius: 8px;
+            background: $primary;
+            display: inline-block;
+            margin: 0px 12px;
+        }
+    }
+}

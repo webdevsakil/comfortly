@@ -1,0 +1,42 @@
+
+.quick-features {
+     margin-top:-87px;
+     z-index: 1;
+    &-items {
+        background: $primary;
+        border-radius: 12px;
+        padding: 50px 30px;
+        margin:0px 15px;
+        box-shadow: 0px 24px 100px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        .quick-feature-item {
+            display: flex;
+            align-items: center;
+            &-img {
+                height: 46px;
+                width: 46px;
+                margin-right: 16px;
+                img {
+                    height: 100%;
+                    width: auto;
+                }
+            }
+            .quick-feature-item-title {
+                h3 {
+                    color: $black;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+                p {
+                    margin: 0;
+                    padding: 0;
+                    color: $light-gray;
+                    font-weight: 400;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
